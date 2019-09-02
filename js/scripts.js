@@ -1,23 +1,3 @@
-// $(document).ready(function(){
-// $(".submit").click(function(){
-//  var name=$(".form").val();
-//  var number=$(".form").val();
-//  var email=$(".form").val();
-//  var adress=$(".form").val();
-//  var sizeofpizza=$(".form").val();
-//  var kindofcrust=$(".form").val();
-//  var typeoftopping=$(".form").val();
-//  var deliveryoption=$(".form").val();
-//  var wheretodeliver=$(".form").val();
-//  var totalcharge=$(".form").val();
-//  if((name !=="") && (number !=="") && (email !=="") && (adress !=="") && (sizeofpizza !=="") && (kindofcrust !=="" ) && (typeoftopping !=="") && (deliveryoption !=="") && (wheretodeliver !=="") && (totalcharge !=="")){
-//   alert(name + "," + "your order is - and the total charge is-")
-//  }
-//  else{
-//      alert("kindly fill the form")
-//  }
-// })
-// });
 //business logic
 function Order(type, size, crust, topping) {
     this.type = type;
@@ -41,7 +21,7 @@ function Order(type, size, crust, topping) {
  };
  
  
- var sizePrice = [1200, 900, 600]
+ var sizePrice = [1500, 700, 200]
  var deliverPrices = [0, 200];
  //user interface logic
  $(document).ready(function () {
