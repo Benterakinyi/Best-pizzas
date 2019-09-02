@@ -16,13 +16,7 @@ h2{
     text-align: center;
 }
 .benter{
-border: solid blue;    
-    
-}
-
-.images>img{
-    height: 300;
-    width: 300;
+border: solid blue;       
 }
 #myForm{
     background-color: grey;
@@ -31,3 +25,11 @@ body{
     border:solid black;
     background-color: aqua;
 }
+.col-md-3>img{
+    height: 300px;
+    width: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 50%;
+}
+
