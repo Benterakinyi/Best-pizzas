@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>       
+    <title>Best-pizzas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+                    <h1>WELCOME TO THE BEST-PIZZAS PLACE</h1>
+                       <h2> High quality and afordable prices</h2> 
+                            <h2>Feel at home</h2> 
+        </div> 
+        <div class="container-fluid images">
+            <h2>Your free to choose your favourite</h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./images/images.jpeg">
+                            <p>sh.500</p>
+                    </div><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/download (2).jpeg">
+                           <p>sh.450</p>
+                    </div><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/download.jpeg">
+                           <p>sh.550</p>
+                    </div><br><br><br>
+                    <div class="col-sm-3">
+                         <img src="./images/images (8).jpeg">
+                            <p>sh.1500</p>
+                    </div>
+                    </div><br><br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./images/images (7).jpeg">
+                            <p>sh.460</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (6).jpeg">
+                           <p>sh.510</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (5).jpeg">
+                           <p>sh.145o</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (4).jpeg">
+                            <p>sh.1300</p>
+                    </div>
+                        </div><br><br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./images/images (3).jpeg">
+                            <p>sh.600</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (2).jpeg">
+                             <p>sh.520</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (1).jpeg">
+                           <p>sh.700</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                        <img src="./images/images (9).jpeg">
+                           <p>sh.650</p>
+                    </div>
+                    </div><br><br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="./images/images (14).jpeg">
+                           <p>sh.350</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                       <img src="./images/images (13).jpeg">
+                          <p>sh.300</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                       <img src="./images/images (12).jpeg">
+                         <p>sh.280</p>
+                    </div><br><br>
+                    <div class="col-sm-3">
+                      <img src="./images/images (11).jpeg">
+                         <p>sh.250</p>
+                    </div>  
+                    </div>
+        </div>
+        <!--order section-->
+   <sectiion id="order" class="py-5 bg-secondary">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-uppercase text-dark mb-0">
+                    <strong>make your order</strong>
+                </h1>
+                
+
+            </div>
+        </div>
+      
+
+    <div class="row">
+        <div class="col-md-8 mx-auto py-2">
+            <form id = "myForm">
+                <div class="form-group">
+                    <label for="sel1">Select type:</label>
+                    <select class="form-control" id="type">
+                        <option>Margherita</option>
+                        <option>Calzone</option>
+                        <option>Stromboli</option>
+                        <option>Marinara</option>
+                        <option>Neapolitant</option>
+                        <option>Deep Dish</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">Select size:</label>
+                    <select class="form-control" id="size">
+                        <option value="1">Large---1200</option>
+                        <option value="2">Medium---800</option>
+                        <option value="3">Small---600</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">Select crust:</label>
+                    <select class="form-control" id="crust">
+                        <option>Cripsy</option>
+                        <option>Stuffed</option>
+                        <option>Gluten-free</option>
+                        <option>Margherita</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">Select topping:</label>
+                    <select class="form-control" id="top">
+                        <option>Pepperoni</option>
+                        <option>Mushrooms</option>
+                        <option>onions</option>
+                        <option>Sausage</option>
+                        <option>Bacon</option>
+                    </select>
+                </div>
+                <div class="form-group" required>
+                    <label for="sel1">Quantity:</label>
+                    <input type="number" id="qty" class="form-control" min="1" required>
+                </div>
+                <div class="form-group" required="">
+                    <label for="sel1">Delivery option:</label>
+                    <select class="form-control" id="pick">
+                        <option value="1">Self pick up</option>
+                        <option value="2">Delivered</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+
+                    <button type="submit" class="btn btn-primary ">checkout</button><br><br>
+                    <div class="contact">
+                        <h1>CONTACT US</h1>
+                           <P>Call:0791945166</P>
+                           <p>Email:benterakinyi80@gmail.com</p>
+                    </div>
+</div>
+               
+            </form>
+        </div>
+
+    </div>
+    </div>
+    <!--end of order section-->
+   
+<script   src="https://code.jquery.com/jquery-3.4.1.js" ></script>
+<script src="js/scripts.js"></script>    
+</body>
+</html>
